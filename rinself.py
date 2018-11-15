@@ -11,7 +11,7 @@ from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit, subprocess
 
-ririn = LINE("EtAMLgb0zoJwV5h2ESr6.7kqscP17dKQEF08Bg5AKnG.LkvtwSoDccEW4SQQb9rQh1/2dUXRv11BQfcebyDgolg='''''")
+ririn = LINE("EyyiJcOQVxOKZ1IM2V12.i61jpx+27lIrFJ6JY34Q0G.9Hsz+1/OctSw1g4/PtGln3V6oUHKnbb07DHFOP3FWp0=")
 #ririn = LINE("TOKENMU")
 
 ririnMid = ririn.profile.mid
@@ -20,7 +20,7 @@ ririnSettings = ririn.getSettings()
 ririnPoll = OEPoll(ririn)
 botStart = time.time()
 
-print ("╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ DNA BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════")
+#print ("╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ DNA BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════")
 
 msg_dict = {}
 
