@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from LineAPI.linepy import *
+from thrift.unverting import *
+from thrift.TMultiplexedProcessor import *
+from thrift.TSerialization import *
+from thrift.TRecursive import *
+from thrift import transport, protocol, server
 from LineAPI.akad.ttypes import Message
 from LineAPI.akad.ttypes import ContentType as Type
 from gtts import gTTS
